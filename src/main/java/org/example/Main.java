@@ -38,7 +38,7 @@ public class Main {
         try {
             newSession.beginTransaction();
             Dim_Language new_language = new Dim_Language();
-            new_language.setLanguageCode("Ita");
+            new_language.setLanguageCode("Itan");
             new_language.setLanguage("Italian");
             new_language.setCreated_dt(java.time.LocalDateTime.now());
             new_language.setUpdated_dt(java.time.LocalDateTime.now());

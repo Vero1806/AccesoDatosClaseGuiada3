@@ -20,6 +20,8 @@ public class Main {
             throw new ExceptionInInitializerError(ex);
         }
         // Query city
+
+
         Query q = newSession.createQuery("From city where name = 'Kabul'", city.class);
         List<city> resultList = q.list();
         System.out.println("num of cities:" + resultList.size());
